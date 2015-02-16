@@ -1,0 +1,178 @@
+2015-02-14T17:43:11.406-0500 [initandlisten] MongoDB starting : pid=13120 port=27018 dbpath=/data/rs2 64-bit host=Daves-MacBook-Pro.local
+2015-02-14T17:43:11.408-0500 [initandlisten] db version v2.6.7
+2015-02-14T17:43:11.409-0500 [initandlisten] git version: nogitversion
+2015-02-14T17:43:11.411-0500 [initandlisten] build info: Darwin miniyosemite.local 14.1.0 Darwin Kernel Version 14.1.0: Fri Dec  5 06:49:27 PST 2014; root:xnu-2782.10.67~9/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-02-14T17:43:11.413-0500 [initandlisten] allocator: tcmalloc
+2015-02-14T17:43:11.415-0500 [initandlisten] options: { net: { port: 27018 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs2", smallFiles: true }, systemLog: { destination: "file", path: "2.log" } }
+2015-02-14T17:43:11.424-0500 [initandlisten] journal dir=/data/rs2/journal
+2015-02-14T17:43:11.426-0500 [initandlisten] recover : no journal files present, no recovery needed
+2015-02-14T17:43:11.475-0500 [initandlisten] waiting for connections on port 27018
+2015-02-14T17:43:11.476-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:11.479-0500 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2015-02-14T17:43:12.485-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:13.491-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:14.496-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:15.503-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:16.510-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:17.516-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:18.521-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:19.528-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:20.536-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:21.543-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:22.549-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:23.556-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:24.561-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:25.566-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:26.572-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:26.601-0500 [initandlisten] connection accepted from 127.0.0.1:62040 #1 (1 connection now open)
+2015-02-14T17:43:27.579-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:28.589-0500 [rsStart] trying to contact localhost:27017
+2015-02-14T17:43:28.596-0500 [rsStart] replSet I am localhost:27018
+2015-02-14T17:43:28.598-0500 [rsStart] replSet got config version 1 from a remote, saving locally
+2015-02-14T17:43:28.600-0500 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017" }, { _id: 1, host: "localhost:27018" }, { _id: 2, host: "localhost:27019" } ] }
+2015-02-14T17:43:28.603-0500 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2015-02-14T17:43:28.604-0500 [rsStart] 	 added index to empty collection
+2015-02-14T17:43:28.605-0500 [rsStart] replSet saveConfigLocally done
+2015-02-14T17:43:28.608-0500 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2015-02-14T17:43:28.610-0500 [rsStart] 	 added index to empty collection
+2015-02-14T17:43:28.611-0500 [rsStart] replSet STARTUP2
+2015-02-14T17:43:28.613-0500 [rsSync] ******
+2015-02-14T17:43:28.614-0500 [rsSync] creating replication oplog of size: 64MB...
+2015-02-14T17:43:28.615-0500 [FileAllocator] allocating new datafile /data/rs2/local.1, filling with zeroes...
+2015-02-14T17:43:28.616-0500 [FileAllocator] creating directory /data/rs2/_tmp
+2015-02-14T17:43:28.617-0500 [FileAllocator] done allocating datafile /data/rs2/local.1, size: 128MB,  took 0 secs
+2015-02-14T17:43:29.128-0500 [rsSync] ******
+2015-02-14T17:43:29.129-0500 [rsSync] replSet initial sync pending
+2015-02-14T17:43:29.131-0500 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2015-02-14T17:43:30.601-0500 [rsHealthPoll] replSet member localhost:27017 is up
+2015-02-14T17:43:30.603-0500 [rsHealthPoll] replSet member localhost:27019 is up
+2015-02-14T17:43:30.604-0500 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+2015-02-14T17:43:31.105-0500 [initandlisten] connection accepted from 127.0.0.1:62049 #2 (2 connections now open)
+2015-02-14T17:43:31.106-0500 [conn2] end connection 127.0.0.1:62049 (1 connection now open)
+2015-02-14T17:43:31.109-0500 [initandlisten] connection accepted from 127.0.0.1:62050 #3 (2 connections now open)
+2015-02-14T17:43:32.611-0500 [rsHealthPoll] replset info localhost:27019 thinks that we are down
+2015-02-14T17:43:32.612-0500 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+2015-02-14T17:43:38.166-0500 [conn1] replSet info voting yea for localhost:27017 (0)
+2015-02-14T17:43:38.620-0500 [rsHealthPoll] replSet member localhost:27017 is now in state PRIMARY
+2015-02-14T17:43:42.174-0500 [conn1] end connection 127.0.0.1:62040 (1 connection now open)
+2015-02-14T17:43:42.174-0500 [initandlisten] connection accepted from 127.0.0.1:62054 #4 (3 connections now open)
+2015-02-14T17:43:45.137-0500 [rsSync] replSet initial sync pending
+2015-02-14T17:43:45.139-0500 [rsSync] replSet syncing to: localhost:27017
+2015-02-14T17:43:45.145-0500 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2015-02-14T17:43:45.147-0500 [rsSync] 	 added index to empty collection
+2015-02-14T17:43:45.148-0500 [rsSync] replSet initial sync drop all databases
+2015-02-14T17:43:45.150-0500 [rsSync] dropAllDatabasesExceptLocal 1
+2015-02-14T17:43:45.151-0500 [rsSync] replSet initial sync clone all databases
+2015-02-14T17:43:45.153-0500 [rsSync] replSet initial sync cloning db: admin
+2015-02-14T17:43:45.156-0500 [rsSync] replSet initial sync data copy, starting syncup
+2015-02-14T17:43:45.157-0500 [rsSync] oplog sync 1 of 3
+2015-02-14T17:43:45.159-0500 [rsSync] oplog sync 2 of 3
+2015-02-14T17:43:45.160-0500 [rsSync] replSet initial sync building indexes
+2015-02-14T17:43:45.161-0500 [rsSync] replSet initial sync cloning indexes for : admin
+2015-02-14T17:43:45.163-0500 [rsSync] oplog sync 3 of 3
+2015-02-14T17:43:45.165-0500 [rsSync] replSet initial sync finishing up
+2015-02-14T17:43:45.169-0500 [rsSync] replSet set minValid=54dfcf8f:1
+2015-02-14T17:43:45.172-0500 [rsSync] replSet RECOVERING
+2015-02-14T17:43:45.174-0500 [rsSync] replSet initial sync done
+2015-02-14T17:43:45.660-0500 [rsBackgroundSync] replSet syncing to: localhost:27017
+2015-02-14T17:43:45.664-0500 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27017
+2015-02-14T17:43:46.181-0500 [rsSync] replSet SECONDARY
+2015-02-14T17:43:47.663-0500 [initandlisten] connection accepted from 127.0.0.1:62062 #5 (3 connections now open)
+2015-02-14T17:43:47.676-0500 [initandlisten] connection accepted from 127.0.0.1:62063 #6 (4 connections now open)
+2015-02-14T17:43:47.685-0500 [conn6] end connection 127.0.0.1:62063 (3 connections now open)
+2015-02-14T17:43:47.697-0500 [conn5] end connection 127.0.0.1:62062 (2 connections now open)
+2015-02-14T17:43:48.639-0500 [rsHealthPoll] replSet member localhost:27019 is now in state RECOVERING
+2015-02-14T17:43:50.645-0500 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+2015-02-14T17:44:01.181-0500 [conn3] end connection 127.0.0.1:62050 (1 connection now open)
+2015-02-14T17:44:01.181-0500 [initandlisten] connection accepted from 127.0.0.1:62071 #7 (3 connections now open)
+2015-02-14T17:44:09.024-0500 [initandlisten] connection accepted from 127.0.0.1:62076 #8 (3 connections now open)
+2015-02-14T17:44:09.028-0500 [conn8] end connection 127.0.0.1:62076 (2 connections now open)
+2015-02-14T17:44:11.507-0500 [clientcursormon] mem (MB) res:10 virt:2819
+2015-02-14T17:44:11.509-0500 [clientcursormon]  mapped (incl journal view):320
+2015-02-14T17:44:11.510-0500 [clientcursormon]  connections:2
+2015-02-14T17:44:11.511-0500 [clientcursormon]  replication threads:32
+2015-02-14T17:44:12.229-0500 [conn4] end connection 127.0.0.1:62054 (1 connection now open)
+2015-02-14T17:44:12.229-0500 [initandlisten] connection accepted from 127.0.0.1:62077 #9 (3 connections now open)
+2015-02-14T17:44:31.235-0500 [conn7] end connection 127.0.0.1:62071 (1 connection now open)
+2015-02-14T17:44:31.235-0500 [initandlisten] connection accepted from 127.0.0.1:62099 #10 (3 connections now open)
+2015-02-14T17:44:42.281-0500 [conn9] end connection 127.0.0.1:62077 (1 connection now open)
+2015-02-14T17:44:42.281-0500 [initandlisten] connection accepted from 127.0.0.1:62105 #11 (3 connections now open)
+2015-02-14T17:45:01.291-0500 [conn10] end connection 127.0.0.1:62099 (1 connection now open)
+2015-02-14T17:45:01.292-0500 [initandlisten] connection accepted from 127.0.0.1:62122 #12 (3 connections now open)
+2015-02-14T17:45:12.332-0500 [conn11] end connection 127.0.0.1:62105 (1 connection now open)
+2015-02-14T17:45:12.333-0500 [initandlisten] connection accepted from 127.0.0.1:62153 #13 (3 connections now open)
+2015-02-14T17:45:31.354-0500 [conn12] end connection 127.0.0.1:62122 (1 connection now open)
+2015-02-14T17:45:31.355-0500 [initandlisten] connection accepted from 127.0.0.1:62165 #14 (3 connections now open)
+2015-02-14T17:45:42.388-0500 [conn13] end connection 127.0.0.1:62153 (1 connection now open)
+2015-02-14T17:45:42.388-0500 [initandlisten] connection accepted from 127.0.0.1:62189 #15 (3 connections now open)
+2015-02-14T17:46:01.412-0500 [conn14] end connection 127.0.0.1:62165 (1 connection now open)
+2015-02-14T17:46:01.413-0500 [initandlisten] connection accepted from 127.0.0.1:62207 #16 (3 connections now open)
+2015-02-14T17:46:12.436-0500 [conn15] end connection 127.0.0.1:62189 (1 connection now open)
+2015-02-14T17:46:12.436-0500 [initandlisten] connection accepted from 127.0.0.1:62257 #17 (3 connections now open)
+2015-02-14T17:46:31.469-0500 [conn16] end connection 127.0.0.1:62207 (1 connection now open)
+2015-02-14T17:46:31.470-0500 [initandlisten] connection accepted from 127.0.0.1:62272 #18 (3 connections now open)
+2015-02-14T17:46:42.490-0500 [conn17] end connection 127.0.0.1:62257 (1 connection now open)
+2015-02-14T17:46:42.490-0500 [initandlisten] connection accepted from 127.0.0.1:62279 #19 (3 connections now open)
+2015-02-14T17:47:01.528-0500 [conn18] end connection 127.0.0.1:62272 (1 connection now open)
+2015-02-14T17:47:01.528-0500 [initandlisten] connection accepted from 127.0.0.1:62312 #20 (3 connections now open)
+2015-02-14T17:47:12.550-0500 [conn19] end connection 127.0.0.1:62279 (1 connection now open)
+2015-02-14T17:47:12.550-0500 [initandlisten] connection accepted from 127.0.0.1:62320 #21 (3 connections now open)
+2015-02-14T17:47:31.579-0500 [conn20] end connection 127.0.0.1:62312 (1 connection now open)
+2015-02-14T17:47:31.579-0500 [initandlisten] connection accepted from 127.0.0.1:62331 #22 (3 connections now open)
+2015-02-14T17:47:42.590-0500 [conn21] end connection 127.0.0.1:62320 (1 connection now open)
+2015-02-14T17:47:42.590-0500 [initandlisten] connection accepted from 127.0.0.1:62341 #23 (3 connections now open)
+2015-02-14T17:48:01.627-0500 [conn22] end connection 127.0.0.1:62331 (1 connection now open)
+2015-02-14T17:48:01.627-0500 [initandlisten] connection accepted from 127.0.0.1:62360 #24 (3 connections now open)
+2015-02-14T17:48:12.659-0500 [conn23] end connection 127.0.0.1:62341 (1 connection now open)
+2015-02-14T17:48:12.660-0500 [initandlisten] connection accepted from 127.0.0.1:62393 #25 (3 connections now open)
+2015-02-14T17:48:31.188-0500 [conn25] end connection 127.0.0.1:62393 (1 connection now open)
+2015-02-14T17:48:31.188-0500 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27017
+2015-02-14T17:48:31.193-0500 [rsBackgroundSync] replSet syncing to: localhost:27017
+2015-02-14T17:48:31.197-0500 [rsBackgroundSync] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:31.200-0500 [rsBackgroundSync] repl: couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-02-14T17:48:31.674-0500 [conn24] end connection 127.0.0.1:62360 (0 connections now open)
+2015-02-14T17:48:31.674-0500 [initandlisten] connection accepted from 127.0.0.1:62408 #26 (2 connections now open)
+2015-02-14T17:48:33.153-0500 [rsHealthPoll] DBClientCursor::init call() failed
+2015-02-14T17:48:33.154-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:33.158-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:33.160-0500 [rsHealthPoll] replSet info localhost:27017 is down (or slow to respond): 
+2015-02-14T17:48:33.161-0500 [rsHealthPoll] replSet member localhost:27017 is now in state DOWN
+2015-02-14T17:48:33.163-0500 [rsMgr] not electing self, localhost:27019 would veto with 'localhost:27018 is trying to elect itself but localhost:27017 is already primary and more up-to-date'
+2015-02-14T17:48:34.309-0500 [conn26] replSet info voting yea for localhost:27019 (2)
+2015-02-14T17:48:35.171-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:35.172-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:35.180-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:37.181-0500 [rsHealthPoll] replSet member localhost:27019 is now in state PRIMARY
+2015-02-14T17:48:37.192-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:37.194-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:37.213-0500 [rsBackgroundSync] replSet syncing to: localhost:27019
+2015-02-14T17:48:37.214-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:37.219-0500 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27019
+2015-02-14T17:48:39.256-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:39.258-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:39.325-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:41.460-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:41.462-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:41.724-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:43.184-0500 [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2015-02-14T17:48:43.186-0500 [signalProcessingThread] now exiting
+2015-02-14T17:48:43.188-0500 [signalProcessingThread] dbexit: 
+2015-02-14T17:48:43.189-0500 [signalProcessingThread] shutdown: going to close listening sockets...
+2015-02-14T17:48:43.190-0500 [signalProcessingThread] closing listening socket: 11
+2015-02-14T17:48:43.192-0500 [signalProcessingThread] closing listening socket: 12
+2015-02-14T17:48:43.193-0500 [signalProcessingThread] removing socket file: /tmp/mongodb-27018.sock
+2015-02-14T17:48:43.194-0500 [signalProcessingThread] shutdown: going to flush diaglog...
+2015-02-14T17:48:43.195-0500 [signalProcessingThread] shutdown: going to close sockets...
+2015-02-14T17:48:43.196-0500 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-02-14T17:48:43.196-0500 [rsBackgroundSync] Socket recv() errno:9 Bad file descriptor 127.0.0.1:27019
+2015-02-14T17:48:43.197-0500 [conn26] end connection 127.0.0.1:62408 (0 connections now open)
+2015-02-14T17:48:43.198-0500 [signalProcessingThread] shutdown: lock for final commit...
+2015-02-14T17:48:43.200-0500 [rsBackgroundSync] SocketException: remote: 127.0.0.1:27019 error: 9001 socket exception [RECV_ERROR] server [127.0.0.1:27019] 
+2015-02-14T17:48:43.203-0500 [signalProcessingThread] shutdown: final commit...
+2015-02-14T17:48:43.205-0500 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27019
+2015-02-14T17:48:43.210-0500 [signalProcessingThread] shutdown: closing all files...
+2015-02-14T17:48:43.212-0500 [signalProcessingThread] closeAllFiles() finished
+2015-02-14T17:48:43.213-0500 [signalProcessingThread] journalCleanup...
+2015-02-14T17:48:43.214-0500 [signalProcessingThread] removeJournalFiles
+2015-02-14T17:48:43.215-0500 [signalProcessingThread] shutdown: removing fs lock...
+2015-02-14T17:48:43.216-0500 [signalProcessingThread] dbexit: really exiting now

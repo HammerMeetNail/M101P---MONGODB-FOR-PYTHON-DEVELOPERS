@@ -1,0 +1,335 @@
+2015-02-14T17:40:59.924-0500 [initandlisten] MongoDB starting : pid=13067 port=27019 dbpath=/data/rs3 64-bit host=Daves-MacBook-Pro.local
+2015-02-14T17:40:59.927-0500 [initandlisten] db version v2.6.7
+2015-02-14T17:40:59.928-0500 [initandlisten] git version: nogitversion
+2015-02-14T17:40:59.932-0500 [initandlisten] build info: Darwin miniyosemite.local 14.1.0 Darwin Kernel Version 14.1.0: Fri Dec  5 06:49:27 PST 2014; root:xnu-2782.10.67~9/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-02-14T17:40:59.935-0500 [initandlisten] allocator: tcmalloc
+2015-02-14T17:40:59.937-0500 [initandlisten] options: { net: { port: 27019 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs3", smallFiles: true }, systemLog: { destination: "file", path: "3.log" } }
+2015-02-14T17:40:59.941-0500 [initandlisten] journal dir=/data/rs3/journal
+2015-02-14T17:40:59.943-0500 [initandlisten] recover : no journal files present, no recovery needed
+2015-02-14T17:40:59.969-0500 [initandlisten] allocating new ns file /data/rs3/local.ns, filling with zeroes...
+2015-02-14T17:41:00.047-0500 [FileAllocator] allocating new datafile /data/rs3/local.0, filling with zeroes...
+2015-02-14T17:41:00.048-0500 [FileAllocator] creating directory /data/rs3/_tmp
+2015-02-14T17:41:00.084-0500 [FileAllocator] done allocating datafile /data/rs3/local.0, size: 16MB,  took 0.033 secs
+2015-02-14T17:41:00.130-0500 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2015-02-14T17:41:00.132-0500 [initandlisten] 	 added index to empty collection
+2015-02-14T17:41:00.133-0500 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 164ms
+2015-02-14T17:41:00.134-0500 [initandlisten] waiting for connections on port 27019
+2015-02-14T17:41:00.135-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:00.137-0500 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2015-02-14T17:41:01.146-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:02.151-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:03.156-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:04.162-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:05.169-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:06.173-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:07.179-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:08.187-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:09.191-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:10.197-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:11.203-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:12.208-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:13.215-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:14.222-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:15.229-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:16.234-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:17.241-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:18.245-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:19.252-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:20.258-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:21.262-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:22.268-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:23.276-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:24.281-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:25.287-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:26.293-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:27.300-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:28.306-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:29.308-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:30.314-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:31.320-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:32.326-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:33.332-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:34.337-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:35.343-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:36.348-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:37.355-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:38.361-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:39.367-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:40.369-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:41.375-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:41.966-0500 [initandlisten] connection accepted from 127.0.0.1:61998 #1 (1 connection now open)
+2015-02-14T17:41:41.968-0500 [conn1] end connection 127.0.0.1:61998 (0 connections now open)
+2015-02-14T17:41:42.379-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:43.384-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:44.390-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:45.394-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:46.397-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:47.405-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:48.412-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:49.419-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:50.426-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:51.432-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:52.439-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:53.445-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:54.448-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:55.454-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:56.460-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:57.468-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:58.473-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:41:59.481-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:00.019-0500 [clientcursormon] mem (MB) res:10 virt:2567
+2015-02-14T17:42:00.021-0500 [clientcursormon]  mapped (incl journal view):64
+2015-02-14T17:42:00.022-0500 [clientcursormon]  connections:0
+2015-02-14T17:42:00.488-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:01.494-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:02.499-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:03.504-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:04.511-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:05.514-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:06.517-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:07.524-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:08.532-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:09.539-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:10.542-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:11.549-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:12.554-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:13.562-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:14.570-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:15.577-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:16.581-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:17.588-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:18.594-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:19.601-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:20.605-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:21.613-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:22.618-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:23.626-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:24.628-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:25.635-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:26.641-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:27.646-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:28.653-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:29.660-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:30.665-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:31.671-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:32.676-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:33.684-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:34.688-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:35.694-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:36.699-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:37.706-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:38.709-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:39.714-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:40.719-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:41.724-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:42.731-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:43.736-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:44.742-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:45.746-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:46.749-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:47.753-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:48.760-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:49.764-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:50.771-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:51.776-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:52.779-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:53.787-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:54.794-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:55.801-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:56.805-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:57.810-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:58.818-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:42:59.825-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:00.831-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:01.839-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:02.846-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:03.851-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:04.858-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:05.865-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:06.872-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:07.878-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:08.883-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:09.888-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:10.893-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:11.901-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:12.908-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:13.914-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:14.919-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:15.923-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:16.929-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:17.934-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:18.941-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:19.944-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:20.951-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:21.955-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:22.962-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:23.966-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:24.969-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:25.976-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:26.604-0500 [initandlisten] connection accepted from 127.0.0.1:62041 #2 (1 connection now open)
+2015-02-14T17:43:26.982-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:27.989-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:28.594-0500 [initandlisten] connection accepted from 127.0.0.1:62044 #3 (2 connections now open)
+2015-02-14T17:43:28.596-0500 [conn3] end connection 127.0.0.1:62044 (1 connection now open)
+2015-02-14T17:43:28.995-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:30.091-0500 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-14T17:43:30.601-0500 [initandlisten] connection accepted from 127.0.0.1:62046 #4 (2 connections now open)
+2015-02-14T17:43:31.100-0500 [rsStart] trying to contact localhost:27017
+2015-02-14T17:43:31.106-0500 [rsStart] trying to contact localhost:27018
+2015-02-14T17:43:31.111-0500 [rsStart] replSet I am localhost:27019
+2015-02-14T17:43:31.113-0500 [rsStart] replSet got config version 1 from a remote, saving locally
+2015-02-14T17:43:31.114-0500 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017" }, { _id: 1, host: "localhost:27018" }, { _id: 2, host: "localhost:27019" } ] }
+2015-02-14T17:43:31.117-0500 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2015-02-14T17:43:31.119-0500 [rsStart] 	 added index to empty collection
+2015-02-14T17:43:31.120-0500 [rsStart] replSet saveConfigLocally done
+2015-02-14T17:43:31.123-0500 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2015-02-14T17:43:31.125-0500 [rsStart] 	 added index to empty collection
+2015-02-14T17:43:31.126-0500 [rsStart] replSet STARTUP2
+2015-02-14T17:43:31.127-0500 [rsSync] ******
+2015-02-14T17:43:31.128-0500 [rsSync] creating replication oplog of size: 64MB...
+2015-02-14T17:43:31.130-0500 [FileAllocator] allocating new datafile /data/rs3/local.1, filling with zeroes...
+2015-02-14T17:43:31.603-0500 [FileAllocator] done allocating datafile /data/rs3/local.1, size: 128MB,  took 0.471 secs
+2015-02-14T17:43:31.647-0500 [rsSync] ******
+2015-02-14T17:43:31.649-0500 [rsSync] replSet initial sync pending
+2015-02-14T17:43:31.650-0500 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2015-02-14T17:43:33.117-0500 [rsHealthPoll] replSet member localhost:27018 is up
+2015-02-14T17:43:33.117-0500 [rsHealthPoll] replSet member localhost:27017 is up
+2015-02-14T17:43:33.120-0500 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+2015-02-14T17:43:33.122-0500 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+2015-02-14T17:43:38.166-0500 [conn2] replSet info voting yea for localhost:27017 (0)
+2015-02-14T17:43:39.138-0500 [rsHealthPoll] replSet member localhost:27017 is now in state PRIMARY
+2015-02-14T17:43:47.150-0500 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+2015-02-14T17:43:47.658-0500 [rsSync] replSet initial sync pending
+2015-02-14T17:43:47.661-0500 [rsSync] replSet syncing to: localhost:27018
+2015-02-14T17:43:47.666-0500 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2015-02-14T17:43:47.668-0500 [rsSync] 	 added index to empty collection
+2015-02-14T17:43:47.669-0500 [rsSync] replSet initial sync drop all databases
+2015-02-14T17:43:47.671-0500 [rsSync] dropAllDatabasesExceptLocal 1
+2015-02-14T17:43:47.672-0500 [rsSync] replSet initial sync clone all databases
+2015-02-14T17:43:47.674-0500 [rsSync] replSet initial sync cloning db: admin
+2015-02-14T17:43:47.678-0500 [rsSync] replSet initial sync data copy, starting syncup
+2015-02-14T17:43:47.679-0500 [rsSync] oplog sync 1 of 3
+2015-02-14T17:43:47.680-0500 [rsSync] oplog sync 2 of 3
+2015-02-14T17:43:47.681-0500 [rsSync] replSet initial sync building indexes
+2015-02-14T17:43:47.683-0500 [rsSync] replSet initial sync cloning indexes for : admin
+2015-02-14T17:43:47.685-0500 [rsSync] oplog sync 3 of 3
+2015-02-14T17:43:47.686-0500 [rsSync] replSet initial sync finishing up
+2015-02-14T17:43:47.690-0500 [rsSync] replSet set minValid=54dfcf8f:1
+2015-02-14T17:43:47.694-0500 [rsSync] replSet RECOVERING
+2015-02-14T17:43:47.695-0500 [rsSync] replSet initial sync done
+2015-02-14T17:43:48.188-0500 [rsBackgroundSync] replSet syncing to: localhost:27017
+2015-02-14T17:43:48.192-0500 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27017
+2015-02-14T17:43:48.700-0500 [rsSync] replSet SECONDARY
+2015-02-14T17:43:58.209-0500 [conn2] end connection 127.0.0.1:62041 (1 connection now open)
+2015-02-14T17:43:58.210-0500 [initandlisten] connection accepted from 127.0.0.1:62068 #5 (3 connections now open)
+2015-02-14T17:43:58.663-0500 [conn4] end connection 127.0.0.1:62046 (1 connection now open)
+2015-02-14T17:43:58.663-0500 [initandlisten] connection accepted from 127.0.0.1:62069 #6 (3 connections now open)
+2015-02-14T17:44:00.123-0500 [clientcursormon] mem (MB) res:11 virt:2828
+2015-02-14T17:44:00.125-0500 [clientcursormon]  mapped (incl journal view):320
+2015-02-14T17:44:00.127-0500 [clientcursormon]  connections:2
+2015-02-14T17:44:00.128-0500 [clientcursormon]  replication threads:32
+2015-02-14T17:44:09.022-0500 [initandlisten] connection accepted from 127.0.0.1:62075 #7 (3 connections now open)
+2015-02-14T17:44:09.028-0500 [conn7] end connection 127.0.0.1:62075 (2 connections now open)
+2015-02-14T17:44:28.264-0500 [conn5] end connection 127.0.0.1:62068 (1 connection now open)
+2015-02-14T17:44:28.265-0500 [initandlisten] connection accepted from 127.0.0.1:62096 #8 (3 connections now open)
+2015-02-14T17:44:28.721-0500 [conn6] end connection 127.0.0.1:62069 (1 connection now open)
+2015-02-14T17:44:28.722-0500 [initandlisten] connection accepted from 127.0.0.1:62097 #9 (3 connections now open)
+2015-02-14T17:44:58.322-0500 [conn8] end connection 127.0.0.1:62096 (1 connection now open)
+2015-02-14T17:44:58.322-0500 [initandlisten] connection accepted from 127.0.0.1:62117 #10 (3 connections now open)
+2015-02-14T17:44:58.779-0500 [conn9] end connection 127.0.0.1:62097 (1 connection now open)
+2015-02-14T17:44:58.780-0500 [initandlisten] connection accepted from 127.0.0.1:62118 #11 (3 connections now open)
+2015-02-14T17:45:28.375-0500 [conn10] end connection 127.0.0.1:62117 (1 connection now open)
+2015-02-14T17:45:28.375-0500 [initandlisten] connection accepted from 127.0.0.1:62162 #12 (3 connections now open)
+2015-02-14T17:45:28.832-0500 [conn11] end connection 127.0.0.1:62118 (1 connection now open)
+2015-02-14T17:45:28.832-0500 [initandlisten] connection accepted from 127.0.0.1:62164 #13 (3 connections now open)
+2015-02-14T17:45:58.433-0500 [conn12] end connection 127.0.0.1:62162 (1 connection now open)
+2015-02-14T17:45:58.434-0500 [initandlisten] connection accepted from 127.0.0.1:62198 #14 (3 connections now open)
+2015-02-14T17:45:58.885-0500 [conn13] end connection 127.0.0.1:62164 (1 connection now open)
+2015-02-14T17:45:58.885-0500 [initandlisten] connection accepted from 127.0.0.1:62200 #15 (3 connections now open)
+2015-02-14T17:46:28.484-0500 [conn14] end connection 127.0.0.1:62198 (1 connection now open)
+2015-02-14T17:46:28.484-0500 [initandlisten] connection accepted from 127.0.0.1:62268 #16 (3 connections now open)
+2015-02-14T17:46:28.949-0500 [conn15] end connection 127.0.0.1:62200 (1 connection now open)
+2015-02-14T17:46:28.949-0500 [initandlisten] connection accepted from 127.0.0.1:62270 #17 (3 connections now open)
+2015-02-14T17:46:58.533-0500 [conn16] end connection 127.0.0.1:62268 (1 connection now open)
+2015-02-14T17:46:58.534-0500 [initandlisten] connection accepted from 127.0.0.1:62309 #18 (3 connections now open)
+2015-02-14T17:46:59.011-0500 [conn17] end connection 127.0.0.1:62270 (1 connection now open)
+2015-02-14T17:46:59.011-0500 [initandlisten] connection accepted from 127.0.0.1:62311 #19 (3 connections now open)
+2015-02-14T17:47:28.585-0500 [conn18] end connection 127.0.0.1:62309 (1 connection now open)
+2015-02-14T17:47:28.585-0500 [initandlisten] connection accepted from 127.0.0.1:62328 #20 (3 connections now open)
+2015-02-14T17:47:29.070-0500 [conn19] end connection 127.0.0.1:62311 (1 connection now open)
+2015-02-14T17:47:29.071-0500 [initandlisten] connection accepted from 127.0.0.1:62330 #21 (3 connections now open)
+2015-02-14T17:47:58.640-0500 [conn20] end connection 127.0.0.1:62328 (1 connection now open)
+2015-02-14T17:47:58.640-0500 [initandlisten] connection accepted from 127.0.0.1:62356 #22 (3 connections now open)
+2015-02-14T17:47:59.122-0500 [conn21] end connection 127.0.0.1:62330 (1 connection now open)
+2015-02-14T17:47:59.122-0500 [initandlisten] connection accepted from 127.0.0.1:62358 #23 (3 connections now open)
+2015-02-14T17:48:28.691-0500 [conn22] end connection 127.0.0.1:62356 (1 connection now open)
+2015-02-14T17:48:28.691-0500 [initandlisten] connection accepted from 127.0.0.1:62402 #24 (3 connections now open)
+2015-02-14T17:48:29.167-0500 [conn23] end connection 127.0.0.1:62358 (1 connection now open)
+2015-02-14T17:48:29.167-0500 [initandlisten] connection accepted from 127.0.0.1:62404 #25 (3 connections now open)
+2015-02-14T17:48:31.188-0500 [conn24] end connection 127.0.0.1:62402 (1 connection now open)
+2015-02-14T17:48:31.188-0500 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27017
+2015-02-14T17:48:31.193-0500 [rsBackgroundSync] replSet syncing to: localhost:27017
+2015-02-14T17:48:31.197-0500 [rsBackgroundSync] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:31.200-0500 [rsBackgroundSync] repl: couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-02-14T17:48:31.686-0500 [rsHealthPoll] DBClientCursor::init call() failed
+2015-02-14T17:48:31.687-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:31.691-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:31.693-0500 [rsHealthPoll] replset info localhost:27017 just heartbeated us, but our heartbeat failed: , not changing state
+2015-02-14T17:48:33.702-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:33.703-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:33.710-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:33.711-0500 [rsHealthPoll] replSet info localhost:27017 is down (or slow to respond): 
+2015-02-14T17:48:33.713-0500 [rsHealthPoll] replSet member localhost:27017 is now in state DOWN
+2015-02-14T17:48:34.307-0500 [rsMgr] replSet info electSelf 2
+2015-02-14T17:48:35.212-0500 [rsMgr] replSet PRIMARY
+2015-02-14T17:48:35.727-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:35.729-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:35.750-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:37.218-0500 [initandlisten] connection accepted from 127.0.0.1:62422 #26 (2 connections now open)
+2015-02-14T17:48:37.221-0500 [initandlisten] connection accepted from 127.0.0.1:62423 #27 (3 connections now open)
+2015-02-14T17:48:37.792-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:37.794-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:37.864-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:40.002-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:40.004-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:40.266-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:42.786-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:42.788-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:43.196-0500 [conn25] end connection 127.0.0.1:62404 (2 connections now open)
+2015-02-14T17:48:43.197-0500 [conn27] end connection 127.0.0.1:62423 (2 connections now open)
+2015-02-14T17:48:43.696-0500 [rsHealthPoll] DBClientCursor::init call() failed
+2015-02-14T17:48:43.698-0500 [rsHealthPoll] replset info localhost:27018 heartbeat failed, retrying
+2015-02-14T17:48:43.702-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27018, reason: errno:61 Connection refused
+2015-02-14T17:48:43.703-0500 [rsHealthPoll] replset info localhost:27018 just heartbeated us, but our heartbeat failed: , not changing state
+2015-02-14T17:48:43.795-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:45.712-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27018, reason: errno:61 Connection refused
+2015-02-14T17:48:45.713-0500 [rsHealthPoll] replset info localhost:27018 heartbeat failed, retrying
+2015-02-14T17:48:45.721-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27018, reason: errno:61 Connection refused
+2015-02-14T17:48:45.723-0500 [rsHealthPoll] replSet info localhost:27018 is down (or slow to respond): 
+2015-02-14T17:48:45.724-0500 [rsHealthPoll] replSet member localhost:27018 is now in state DOWN
+2015-02-14T17:48:45.726-0500 [rsMgr] can't see a majority of the set, relinquishing primary
+2015-02-14T17:48:45.728-0500 [rsMgr] replSet relinquishing primary state
+2015-02-14T17:48:45.729-0500 [rsMgr] replSet SECONDARY
+2015-02-14T17:48:45.731-0500 [rsMgr] replSet closing client sockets after relinquishing primary
+2015-02-14T17:48:45.799-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:45.801-0500 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+2015-02-14T17:48:45.806-0500 [rsHealthPoll] warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2015-02-14T17:48:47.283-0500 [conn26] SocketException handling request, closing client connection: 9001 socket exception [SEND_ERROR] server [127.0.0.1:62422] 
+2015-02-14T17:48:47.704-0500 [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2015-02-14T17:48:47.707-0500 [signalProcessingThread] now exiting
+2015-02-14T17:48:47.709-0500 [signalProcessingThread] dbexit: 
+2015-02-14T17:48:47.711-0500 [signalProcessingThread] shutdown: going to close listening sockets...
+2015-02-14T17:48:47.713-0500 [signalProcessingThread] closing listening socket: 8
+2015-02-14T17:48:47.715-0500 [signalProcessingThread] closing listening socket: 9
+2015-02-14T17:48:47.717-0500 [signalProcessingThread] removing socket file: /tmp/mongodb-27019.sock
+2015-02-14T17:48:47.719-0500 [signalProcessingThread] shutdown: going to flush diaglog...
+2015-02-14T17:48:47.721-0500 [signalProcessingThread] shutdown: going to close sockets...
+2015-02-14T17:48:47.722-0500 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-02-14T17:48:47.724-0500 [signalProcessingThread] shutdown: lock for final commit...
+2015-02-14T17:48:47.725-0500 [signalProcessingThread] shutdown: final commit...
+2015-02-14T17:48:47.732-0500 [signalProcessingThread] shutdown: closing all files...
+2015-02-14T17:48:47.734-0500 [signalProcessingThread] closeAllFiles() finished
+2015-02-14T17:48:47.735-0500 [signalProcessingThread] journalCleanup...
+2015-02-14T17:48:47.737-0500 [signalProcessingThread] removeJournalFiles
+2015-02-14T17:48:47.739-0500 [signalProcessingThread] shutdown: removing fs lock...
+2015-02-14T17:48:47.740-0500 [signalProcessingThread] dbexit: really exiting now
