@@ -20,6 +20,6 @@ This problem is a little tricky because a recipient may appear more than once in
 
 Which pair of people have the greatest number of messages in the dataset?:
 
-
+db.messages.aggregate([{$unwind: "$headers.To"}, {$group: {"_id": {"From": "$headers.From", "To": "$headers.To"}, "Emails": {$sum: 1}}}, {$sort: {"Emails": -1}}, {$limit: 3}])
 
 3) 
