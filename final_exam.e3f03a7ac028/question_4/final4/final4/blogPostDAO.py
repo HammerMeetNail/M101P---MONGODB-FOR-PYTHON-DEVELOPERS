@@ -23,7 +23,6 @@ import re
 import datetime
 
 
-
 # The Blog Post Data Access Object handles interactions with the Posts collection
 class BlogPostDAO:
 
@@ -151,7 +150,17 @@ class BlogPostDAO:
         # XXX Final exam 
         # Work here. You need to update the num_likes value in the comment being liked
         # 
-        
+        post = self.posts.find_one({'permalink': permalink})
+
+        if post is not None:
+            for i, comment in enumerate(post['comments']):
+                if i == comment_ordinal:
+                    if 'num_likes' not in comment:
+                        comment['num_likes'] = 1
+                    else:
+                        comment['num_likes'] = comment['num_likes'] + 1
+
+            self.posts.update({'permalink': permalink}, post)
 
         return 0
 
